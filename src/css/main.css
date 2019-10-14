@@ -160,16 +160,11 @@ h6 {
   --------------------------------------------------------------*/
 
 #intro {
-  width: 100%;
   position: relative;
-  background: url("../img/intro.jpg") center no-repeat;
-  background-size: cover;
-  padding: 200px 0 200px 0;
-}
-
-#intro .intro-img {
-  width: 50%;
-  float: right;
+  background: url("../img/intro.jpg") no-repeat;
+  background-size: 100% auto;
+  background-position: bottom center;
+  padding: 200px 0;
 }
 
 #intro .intro-info {
