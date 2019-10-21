@@ -948,27 +948,12 @@ h6 {
     height: 80px;
     padding: 10px 0;
   }
-
   #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
   }
-
   #intro {
     padding: 240px 0 200px 0;
-  }
-
-  #intro .intro-img {
-    width: 80%;
-    float: none;
-    margin: 0 auto 25px auto;
-  }
-
-  #intro .intro-info {
-    width: 80%;
-    float: none;
-    margin: auto;
-    text-align: center;
   }
 }
 
@@ -979,22 +964,24 @@ h6 {
 }
 
 @media (max-width: 767px) {
-  #intro .intro-info {
-    width: 100%;
-  }
-
-  #intro .intro-info h2 {
-    font-size: 34px;
-    margin-bottom: 30px;
-  }
-
   .section-header p {
     width: 100%;
   }
 }
-
+@media (max-width: 630px) {
+  #intro {
+    padding: 300px 0 120px 0;
+  }
+}
 @media (max-width: 574px) {
   #intro {
     padding: 200px 0 120px 0;
+  }
+}
+
+@media (max-width: 415px) {
+  #intro {
+    background-size: 100%, 100%;
+    padding: 100px 0 120px 0;
   }
 }
