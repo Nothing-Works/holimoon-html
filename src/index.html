@@ -246,7 +246,8 @@
                                 Your message has been sent. Thank you!
                             </div>
                             <div id="errormessage"></div>
-                            <form name="contact" method="POST" role="form" class="contactForm" data-netlify="true">
+                            <form name="contact" method="POST" role="form" data-netlify-recaptcha="true"
+                                class="contactForm" data-netlify="true">
                                 <div class="form-row">
                                     <div class="form-group col-lg-6">
                                         <input type="text" name="name" class="form-control" id="name"
@@ -273,6 +274,7 @@
                                     <div class="validation"></div>
                                 </div>
                                 <div class="text-center">
+                                    <div data-netlify-recaptcha="true"></div>
                                     <button type="submit" title="Send Message">
                                         Send Message
                                     </button>
