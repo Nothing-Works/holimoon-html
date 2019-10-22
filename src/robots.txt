@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://holimoon.co.nz/src/sitemap.xml
+Sitemap: https://holimoon.co.nz/sitemap.xml
