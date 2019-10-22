@@ -57,7 +57,10 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
-
+.fakeH1 {
+  font-size: 14px;
+  display: inline;
+}
 /* Back to top button */
 
 .back-to-top {
